@@ -5,10 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-    <link rel="stylesheet" href="styles/cadastro.css">
-    
+    <link rel="stylesheet" href="/styles/geral.css">
+    <link rel="stylesheet" href="/styles/cadastro.css">
+    <link rel="shortcut icon" href="../images/icons/icon_artes_marciais.svg" type="image/x-icon">
 </head>
 <body>
-    
+    <header>
+        <div id="cabecalhoEsquerda">
+            <h1><a href="#">Fight Club</h1></a>
+        </div>
+            <div id="cabecalhoDireita">
+                <a href="#">Home</a>
+                <a href="#">Catalogo</a>
+                <a href="login.html">Login</a>
+                <a href="">Cadastro</a>
+                <a href="#">Carrinho</a>
+            </div>
+    </header>
+    <main>
+        <div id="page">
+            <div id="card">
+                <form>
+                    <!--<h1>Cadastro</h1>-->
+                    <p>Junte-se ao nosso clube de lutadores!</p>
+                    <h3>Cadastre-se!</h3>
+                    <label for="usuarioNome">Nome completo:</label>
+                    <input required type="text" id="usuarioNome">
+                    <label for="dataDeNascimento">Data de nascimento:</label>
+                    <input required type="date" name="data" id="dataDeNascimento">
+                    <label for="usuarioCPF">Digite seu CPF:</label>
+                    <input required type="number" name="CPF" id="usuarioCPF">
+                    <label for="email">Digite seu melhor e-mail:</label>
+                    <input required type="email" name="email" id="usuarioEmail">
+                    <label for="telefoneUsuario">Número de contato:</label>
+                    <input required type="tel" name="telefone" id="telefoneUsuario">
+                    <label for="usuarioCEP">Digite o seu CEP:</label>
+                    <input required type="number" name="usuarioCEP" id="usuarioCEP">
+                    <label for="enderecoUsuario">Endereço</label>
+                    <input required type="text" name="enderecoUsuario" id="enderecoUsuario">
+
+                    <input type="submit" value="Finalizar Cadastro" class="botao">
+
+                </form>
+            </div>
+        </div>
+
+
+    </main>
+                            <footer> Todos os direitos reservados</footer>
 </body>
 </html>

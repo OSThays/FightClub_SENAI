@@ -1,0 +1,77 @@
+@font-face {
+    font-family: TylerDurden-Italic;
+    src: url(../fonts/tyler_durden/TylerDurden-Italic.ttf);
+    font-weight: normal;
+}
+
+*{   
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root{
+    --corPrimaria : #42247a;
+    --corSecundaria : #9f0150;
+    --branco:rgb(255, 255, 255); ; 
+    --roxo:rgb(134, 48, 192);
+    --pretoPersonalizado: rgb(19, 19, 19);
+    --preto: rgb(0, 0, 0);
+    --fontPadrao : 'Trebuchet MS';
+    --fontCabecalho : 'TylerDurden-Italic';
+}
+
+a{
+    text-decoration: none;
+    color: var(--branco);
+    margin: 0px 20px;
+    font-family: 'TylerDurden-Italic';
+}
+
+header h1{
+    text-decoration: none;
+}
+
+h2, h3, h5{
+
+    color: var(--preto);
+    margin: 20px;
+}
+
+header, footer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    color: var(--branco);
+    background-color: var(--corPrimaria);
+    font-family: 'TylerDurden-Italic';
+}
+
+#cabecalhoEsquerda, #cabecalhoDireita{
+    display: flex;
+    margin: auto;
+    justify-items: auto;
+    color: var(--branco);
+    background-color: var(--corPrimaria);
+    font-family: 'TylerDurden-Italic';
+}
+
+main{
+    margin: 30px;
+    color: var(--preto);
+    font-family: var(--fontPadrao);
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    color: var(--branco);
+    background-color: var(--corPrimaria);
+    font-family: 'TylerDurden-Italic';
+
+}

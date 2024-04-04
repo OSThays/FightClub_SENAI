@@ -1,0 +1,103 @@
+*{   
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root{
+    --corPrimaria : #42247a;
+    --corSecundaria : #9f0150;
+    --branco:rgb(255, 255, 255); ; 
+    --roxo:rgb(134, 48, 192);
+    --pretoPersonalizado: rgb(19, 19, 19);
+    --preto: rgb(0, 0, 0);
+    --fontPadrao : 'Trebuchet MS';
+    --fontCabecalho : 'TylerDurden-Italic';
+}
+
+body{
+    font-family: var(--fontPadrao);
+    color: var(--branco)
+}
+
+#page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#card {
+    width: 80%;
+    max-width: 500px;
+    background-color: var(--branco);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 20px 20px 0px rgba(9, 9, 9, 0.831);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+input{
+    border: 1px solid rgb(45, 45, 45);
+    border-radius: 7px;
+    gap: 15px;
+    transition: all linear 190ms;
+    font-size: 0.9em;
+    color: #444;
+    margin-bottom: 5px;
+    cursor : pointer;
+}
+
+input:focus{
+    border-color: #9f0150;
+}
+
+label {
+    color: var(--pretoPersonalizado);
+}
+
+.botao{
+    padding: 5px;
+    color: var(--branco);
+    font-weight: 600;
+    border: none;
+    margin-top: 2px;
+    border-radius: 7px;
+    background-color: #9f0150;
+    cursor: pointer;
+    transition: all linear 190ms;
+}
+
+.botao:hover{
+    transition: scale(1.04);
+    background-color:  #42247a;
+}
+
+p{
+    text-align: center;
+    font-size: 1.5em;
+    color: var(--pretoPersonalizado);
+}
+
+a{
+    font-size: 0.9em;
+    color:  var(--branco);
+    gap: 10px;
+    text-decoration: none;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: var(--corPrimaria);
+}
+

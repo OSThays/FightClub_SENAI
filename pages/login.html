@@ -5,24 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="styles/login.css">
-    <link rel="shortcut icon" href="images/icons/icon_artes_marciais.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/login.css">
+    <link rel="shortcut icon" href="../images/icons/icon_artes_marciais.svg" type="image/x-icon">
 
 </head>
 <body>
-    <div id="page">
-        <main>
-            <div id="efeito">
-                <div id="bannerLogin">
-            <img src="../images/banner/womanBase.jpg" alt="">
+    <!--<header>
+        <div id="cabecalhoEsquerda">
+            <h1><a href="#">Fight Club</h1></a>
         </div>
-        <label for="emailDeUsuario">Digite seu email cadastrado:</label>
-        <input required type="email" id="nomeDeUsuario">
-        <label for="senhaDeUsuario">Digite sua senha:</label>
-        <input required type="password">
-        <button type="login"></button>
+            <div class="cabecalhoDireita">
+                <a href="#">Home</a>
+                <a href="#">Catalogo</a>
+                <a href="login.html">Login</a>
+                <a href="">Cadastro</a>
+                <a href="#">Carrinho</a>
             </div>
-        </main>
-    </div>
+    </header>-->
+    <div id="page">
+                <div id="card">
+                <form>
+                    <h1>Login</h1>
+                    <label for="email">Digite seu email:</label>
+                    <input required type="email" id="nomeDeUsuario">
+                    <label for="senhaDeUsuario">Digite sua senha:</label>
+                    <input required type="password" id="senhaUsuario">
+                    <a href="#">Esqueci minha senha</a>
+                    <input type="submit" value="Acessar" class="btn"></button>
+                    <p>Ainda não tem uma conta? <a href="cadastro.html">Crie uma agora</a>.</p>
+                </form>
+            </div>
+        </div>
+        <footer> Todos os direitos reservados</footer>
 </body>
 </html>
